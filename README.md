@@ -26,8 +26,7 @@ User Insertion: Inserts new user data into the database.
 User Update: Updates existing user data in the database.
 Additional Notes:
 Passwords are hashed using bcrypt before storing in the database.
-SQL injection vulnerability is present in the login route. Prefer using parameterized queries to avoid it.
-There's a logical error in the update route: the SQL update query is targeting a table named 'users' instead of 'tbl_users'.
+
 Some parts of the code are commented out, indicating potential future enhancements or debugging steps.
 The application runs in debug mode for development purposes.
 Overall, this application serves as a basic CRUD system with user authentication, using Flask and MySQL for backend operations.
